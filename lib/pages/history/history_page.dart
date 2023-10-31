@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_hom_4/pages/subscriptions/subscriptions_page.dart';
 
 class HistoryPage extends StatelessWidget {
   const HistoryPage({super.key});
 
   static const route = "/history";
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
